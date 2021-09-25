@@ -1,24 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>loopstudios</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-        <meta name="author" content="Xavier">
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="js/script.js" defer></script>
-    </head>
-    <body>
-        <!--Navbar-->
-        <header class="nav">
-            <nav class="nav container">
-                <div class="nav__responsive">
-                    <div class="nav__logo">
 
-                    </div>
-                    .nav__
+<head>
+    <title>Loopstudios</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name="author" content="Xavier">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header class="header">
+        <nav class="nav container flex">
+            <div class="nav__responsive flex">
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
                 </div>
-            </nav>
-        </header>
-    </body>
+                <div class="nav__toggler">
+                    <img src="img/icon-hamburger.svg" alt="icon-hamburger">
+                    <img src="img/icon-close.svg" alt="icon-close">
+                </div>
+            </div>
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Careers</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Events</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Immersive experience section-->
+    <main>
+        <section class="immersive">
+            <div class="immersive__title">
+                <div class="container">
+                    <div class="immersive__box">
+                        <h1>immersive experiences that deliver</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="immersive__image">
+                <img src="img/desktop/image-hero.jpg" alt="hero-image">
+            </div>
+        </section>
+
+    <!--Two column welcome section-->
+        <section class="welcome padding">
+            <div class="container flex">
+                <div class="welcome__image">
+                    <img src="img/desktop/image-interactive.jpg" alt="welcome-image">
+                </div>
+                <div class="welcome__text">
+                    <h2>the leader in interactive vr</h2>
+                    <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Our creations section-->
+        <section class="creations padding">
+            <div class="container">
+                <div class="creations__title flex">
+                    <h2>our creations</h2>
+                    <a href="#">See all</a>
+                </div>
+                <div class="creations__content grid">
+                    <div class="creations__item">
+                        <img src="img/desktop/image-deep-earth.jpg" alt="deep-earth">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-night-arcade.jpg" alt="night-arcade">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-soccer-team.jpg" alt="soccer-team">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-grid.jpg" alt="the-grid">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-from-above.jpg" alt="from-up">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-pocket-borealis.jpg" alt="pocket-borealis">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-curiosity.jpg" alt="curiosity">
+                    </div>
+                    <div class="creations__item">
+                        <img src="img/desktop/image-fisheye.jpg" alt="fisheye">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer margin padding">
+        <div class="container">
+            <div class="footer__contact flex">
+                <div class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="footer__social">
+                    <img src="img/icon-facebook.svg" alt="icon-facebook">
+                    <img src="img/icon-twitter.svg" alt="icon-twitter">
+                    <img src="img/icon-pinterest.svg" alt="icon-pinterest">
+                    <img src="img/icon-instagram.svg" alt="icon-instagram">
+                </div>
+            </div>
+            <div class="footer__copyright flex">
+                <div class="footer__links">
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Events</a>
+                    <a href="#">Products</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="footer__license">
+                    <p>&copy;2021 Loopstudios. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>

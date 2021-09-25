@@ -1,1 +1,203 @@
+/*INDEX*/
+
+:root{
+    --white:hsl(0,0%,100%);
+    --black:hsl(0,0%,0%);
+    --dark-gray:hsl(0,0%,55%);
+    --very-dark-gray:hsl(0,0%,41%);
+    --font-size:15px;
+}
+
+@font-face{
+    font-family:'Alata';
+    src:url(../fonts/Alata/Alata-Regular.ttf);
+}
+
+@font-face{
+    font-family:'Josefin-sans';
+    src:url(../fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
+/*PRE STYLING*/
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-size:var(--font-size);
+    font-family: 'Alata';
+}
+
+h1,h2{
+    font-family:'Josefin-sans';
+}
+
+/*UTILITIES*/
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.container{
+    max-width:1480px;
+    height:100%;
+    margin:auto;
+    overflow:hidden;
+    padding:0 20px;
+}
+
+/*NAVBAR*/
+
+.header{
+    height:180px;
+    position:fixed;
+    z-index:5;
+    top:0;
+    width:100%;
+}
+
+.nav{
+    height:100%;
+}
+
+.nav__toggler{
+    display:none;
+}
+
+.nav__menu{
+    display:flex;
+}
+
+.nav__item{
+    padding-left:50px;
+}
+
+.nav__logo img{
+    width:234px;
+}
+
+.nav__link{
+    color:var(--white);
+    font-size:18px;
+    position:relative;
+    padding-bottom:14px;
+}
+
+.nav__link:after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:1.8px;
+    background-color:var(--white);
+    transition:.25s linear; 
+    opacity:0;
+    transform:scaleX(0);
+}
+
+.nav__link:hover:after{
+    transform: scaleX(1);
+    opacity:1;
+}
+
+.nav__scroll{
+    height:70px;
+    background-color:var(--white);
+    opacity:.95;
+    color:#333;
+}
+.nav__scroll a{
+    color:var(--very-dark-gray);
+}
+
+/*IMMERSIVE EXPERIENCE SECTION*/
+
+.immersive__image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(.6);
+}
+
+.immersive__title{
+    position:absolute;
+    width:100%;
+    top:56%;
+    transform:translateY(-50%);
+    z-index:3;
+}
+
+.immersive__box{
+    width:830px;
+    border:3px solid var(--white);
+    padding:40px 40px 20px 40px;
+}
+
+.immersive__title h1{
+    color:var(--white);
+    text-transform: uppercase;
+    font-weight:300;
+    font-size:95px;
+    line-height:1;
+    margin:0;
+}
+
+.immersive{
+    position:relative;
+    z-index:3;
+}
+
+/*Two column welcome section*/
+
+.padding{
+    padding-top:160px;
+}
+
+.welcome .flex{
+    flex-wrap:wrap;
+}
+
+.welcome__image{
+    flex:2;
+}
+
+.welcome__text{
+    flex:1;
+    margin-left:-215px;
+    background-color:var(--white);
+    padding:140px 0 0 130px;
+    align-self:flex-end;
+}
+
+.welcome__image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.welcome__text h2{
+    font-size:60px;
+    text-transform:uppercase;
+    margin-bottom:40px;
+    font-weight:400;
+    line-height:.95;
+}
+
+.welcome__text p{
+    line-height:1.8;
+    color:var(--dark-gray);
+    font-size:17px;
+}
+
+/*Our creations section*/
+
 
