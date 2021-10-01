@@ -7,7 +7,7 @@
     --very-dark-gray:hsl(0,0%,41%);
     --font-size:15px;
     --title-1:3vw;
-    --title-2:43px;
+    --title-2:38px;
     --title3:32px;
 }
 
@@ -463,6 +463,10 @@ h2,h3{
 
     .grid{
         grid-auto-rows: 180px;
+    }
+
+    .immersive__title{
+        top:45%;
     }
 }
 
