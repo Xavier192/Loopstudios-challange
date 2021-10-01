@@ -454,6 +454,16 @@ h2,h3{
     .immersive__title h1{
         font-size:38px;
     }
+
+    .creations__item h3{
+        font-size:24px;
+        bottom:10px;
+        left:15px;
+    }
+
+    .grid{
+        grid-auto-rows: 180px;
+    }
 }
 
 
