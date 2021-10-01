@@ -446,6 +446,14 @@ h2,h3{
     .image-mobile{
         display:block;
     }
+
+    .immersive__box{
+        width:300px;
+        padding:20px 20px 10px 20px;
+    }
+    .immersive__title h1{
+        font-size:38px;
+    }
 }
 
 
