@@ -411,7 +411,10 @@ h2,h3{
         margin-top:100px;
     }
 
-    
+    .grid{
+        grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    }
+
 }
 
 @media screen and (max-width:650px){
@@ -464,6 +467,7 @@ h2,h3{
 
     .grid{
         grid-auto-rows: 180px;
+        grid-template-columns:1fr;
     }
 
     .immersive__title{
