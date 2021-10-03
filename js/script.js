@@ -3,21 +3,27 @@ const logo = document.querySelector('.nav__logo');
 const navMenu = document.querySelector('.nav__menu');
 const navToggler = document.querySelector('.nav__toggler');
 
-let navbarMenuState = false;
 let stopAnimationsTimer = null;
 
 navToggler.onclick = function(){
+    navToggler.setAttribute('aria-expanded',getAriaExpanded());
     navMenu.classList.toggle('nav__toggle');
-
-    if(navbarMenuState){
-        navbarMenuState = false;
-        navToggler.src = 'img/icon-hamburger.svg';
-    }
-    else{
-        navbarMenuState = true;
-        navToggler.src = 'img/icon-close.svg';
-    }
 }
+
+function getAriaExpanded(){
+    return getContraryAriaExpanded(document.querySelector('.nav__toggler').getAttribute("aria-expanded"));
+}
+
+function getContraryAriaExpanded(ariaExpanded){
+    if(ariaExpanded === 'true'){
+        ariaExpanded = 'false';
+    }else{
+        ariaExpanded = 'true';
+    }
+
+    return ariaExpanded;
+}
+
 
 logo.onclick = function(){
     window.location.href = 'index.html';

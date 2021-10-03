@@ -145,7 +145,16 @@ h2,h3{
 
 .nav__toggler{
     display:none;
-    width:28px;
+    height:100px;
+    width:35px;
+    border:none;
+    background:url(../img/icon-hamburger.svg) no-repeat center center;
+    background-size:28px;
+}
+
+button[aria-expanded="true"]{
+    background:url(../img/icon-close.svg) no-repeat center center;
+    background-size: 28px;
 }
 
 .nav__item{
@@ -387,7 +396,7 @@ h2,h3{
         text-align:center;
     }
     
-    .welcome__text h2, .creations__title h2, .immersive__title h1{
+    .welcome__text h2, .creations__title h2, .immersive__box h1{
         font-size:var(--title-2) ;
     }
 
