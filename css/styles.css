@@ -145,9 +145,6 @@ h2,h3{
 
 .nav__toggler{
     display:none;
-}
-
-.nav__toggler img{
     width:28px;
 }
 
@@ -155,8 +152,9 @@ h2,h3{
     padding-left:50px;
 }
 
-.nav__logo img{
+.nav__logo{
     width:234px;
+    cursor:pointer;
 }
 
 .nav__link{
@@ -357,7 +355,7 @@ h2,h3{
         height:95px;
     }
 
-    .nav__logo img{
+    .nav__logo{
         width:150px;
     }
 

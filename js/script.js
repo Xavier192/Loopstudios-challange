@@ -1,8 +1,8 @@
 const navbar = document.querySelector('.nav');
-const logo = document.querySelector('.nav__logo img');
+const logo = document.querySelector('.nav__logo');
 const navMenu = document.querySelector('.nav__menu');
 const navToggler = document.querySelector('.nav__toggler');
-const togglerImg = document.querySelector('.nav__toggler img');
+
 let navbarMenuState = false;
 let stopAnimationsTimer = null;
 
@@ -11,12 +11,16 @@ navToggler.onclick = function(){
 
     if(navbarMenuState){
         navbarMenuState = false;
-        togglerImg.src = 'img/icon-hamburger.svg';
+        navToggler.src = 'img/icon-hamburger.svg';
     }
     else{
         navbarMenuState = true;
-        togglerImg.src = 'img/icon-close.svg';
+        navToggler.src = 'img/icon-close.svg';
     }
+}
+
+logo.onclick = function(){
+    window.location.href = 'index.html';
 }
 
 window.onresize = function(){
