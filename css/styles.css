@@ -1,4 +1,16 @@
-/*INDEX*/
+/*INDEX
+1. Pre styling 36 - 61.
+2. Utilities 63 - 149.
+3. Navbar 151 - 194.
+4. Immersive experience section 196 - 232.
+5. Two column welcome section 234 - 259.
+6. Our creations section 262 - 300.
+7. Footer 302 - 348.
+8. Attribution 343 - 355.
+9. Media query 878px 356 - 451.
+10. Media query 650px 452 - 522.
+11. Media query 376px 523 - end.
+*/
 
 :root{
     --white:hsl(0,0%,100%);
@@ -53,6 +65,7 @@ h2,h3{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -175,7 +188,6 @@ button[aria-expanded="true"]{
 .nav__scroll{
     height:100px;
     background-color:var(--black);
-    opacity:.95;
 }
 
 /*IMMERSIVE EXPERIENCE SECTION*/
@@ -188,10 +200,7 @@ button[aria-expanded="true"]{
 }
 
 .immersive__image{
-    filter:brightness(.6);
-    width:100%;
-    height:100%;
-    object-fit:cover;
+    filter:brightness(.65);
 }
 
 .immersive .container{
@@ -202,7 +211,6 @@ button[aria-expanded="true"]{
     transform:translateY(-50%) translateX(-50%);
     z-index:3;
     left:50%;
-
 }
 
 .immersive__box{
@@ -220,10 +228,6 @@ button[aria-expanded="true"]{
 }
 
 /*TWO COLUMN WELCOME SECTION*/
-
-.welcome .flex{
-    flex-wrap:wrap;
-}
 
 .welcome__image{
     flex:2 2 100px;
@@ -274,6 +278,7 @@ button[aria-expanded="true"]{
 .creations__item:hover{
     background:rgba(255,255,255,.65);
 }
+
 .creations__item:hover > h3{
     color:var(--black);
 }
@@ -346,6 +351,9 @@ button[aria-expanded="true"]{
 }
 
 .attribution a { color: hsl(197, 94%, 51%); }
+
+
+/*MEDIA QUERY 878px*/
 
 @media screen and (max-width:878px){
     .nav__menu{
@@ -441,6 +449,8 @@ button[aria-expanded="true"]{
 
 }
 
+/*MEDIA QUERY 650px*/
+
 @media screen and (max-width:650px){
     .footer .grid{
         grid-template-columns:1fr;
@@ -485,9 +495,7 @@ button[aria-expanded="true"]{
     }
 
     .btn-outline-black{
-        
-        
-        margin:35px 50px 0 50px;
+       margin:35px 50px 0 50px;
        text-align:center;
     }
 
@@ -511,6 +519,8 @@ button[aria-expanded="true"]{
         grid-template-columns:1fr;
     }
 }
+
+/*MEDIA QUERY 376px*/
 
 @media screen and (max-width:376px){
     .container{
