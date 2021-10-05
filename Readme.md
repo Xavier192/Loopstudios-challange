@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://xavier192.github.io/Loopstudios-challange/)
+- Live Site URL: [DEMO](https://xavier192.github.io/Loopstudios-challange/)
 
 ## My process
 
