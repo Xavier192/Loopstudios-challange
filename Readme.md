@@ -5,7 +5,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
-  - [Demo](#demo)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -19,11 +18,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
-
-### Demo 
-
-Demo: https://xavier192.github.io/Loopstudios-challange/
+## Overview 
 
 ### The challenge
 
@@ -46,8 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://xavier192.github.io/Loopstudios-challange/)
 
 ## My process
 
