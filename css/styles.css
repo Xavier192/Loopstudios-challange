@@ -422,10 +422,6 @@ button[aria-expanded="true"]{
         font-size:var(--title-2) ;
     }
 
-    .creations__title .btn-outline-black{
-        display:none;
-    }
-
     .creations__title h2{
         margin:auto;
         text-align:center;
@@ -486,6 +482,13 @@ button[aria-expanded="true"]{
 
     .image-mobile{
         display:block;
+    }
+
+    .btn-outline-black{
+        
+        
+        margin:35px 50px 0 50px;
+       text-align:center;
     }
 
     .immersive__box{
