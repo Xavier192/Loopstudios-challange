@@ -533,4 +533,34 @@ button[aria-expanded="true"]{
    
 }
 
+/*1080 p media query*/
+
+@media screen and (min-width:1600px){
+    .container{
+        max-width:1440px;
+    }
+
+    .immersive{
+        height:850px;
+    }
+
+    .immersive__box{
+        width:800px;
+    }
+
+    .immersive__box h1{
+        font-size:96px;
+    }
+
+    .welcome__text{
+        padding:7vw 0 0 120px;
+    }
+
+    .grid{
+        grid-template-columns:repeat(4,326px);
+    }
+
+
+}
+
 
