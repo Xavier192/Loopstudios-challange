@@ -5,6 +5,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
+  - [Demo](#demo)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
