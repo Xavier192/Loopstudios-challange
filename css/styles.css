@@ -293,6 +293,7 @@ button[aria-expanded="true"]{
 .footer{
     background-color:var(--black);
     padding:50px 0;
+    position:relative;
 }
 
 .footer .grid{
@@ -333,6 +334,18 @@ button[aria-expanded="true"]{
     padding-left:20px;
     padding-right:0;
 }
+
+/*ATTRIBUTION*/
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position:absolute;
+    width:100%;
+    bottom:10px;
+    color:var(--dark-gray);
+}
+
+.attribution a { color: hsl(197, 94%, 51%); }
 
 @media screen and (max-width:878px){
     .nav__menu{
@@ -479,9 +492,9 @@ button[aria-expanded="true"]{
         width:300px;
         padding:20px 20px 10px 20px;
     }
-    
-    .immersive__title h1{
-        font-size:38px;
+
+    .immersive .container{
+        top:45%;
     }
 
     .creations__item h3{
@@ -493,10 +506,6 @@ button[aria-expanded="true"]{
     .grid{
         grid-auto-rows: 180px;
         grid-template-columns:1fr;
-    }
-
-    .immersive__title{
-        top:45%;
     }
 }
 
